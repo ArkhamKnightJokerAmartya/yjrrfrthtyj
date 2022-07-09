@@ -21,7 +21,7 @@ for(i=0;i<objects.length;i++){
     fill("#02f2fa");
     percent=floor(objects[i].confidence*100);
     text(objects[i].label+" "+percent+"%"+objects[i].x+15,objects[i].y+15);
-    nofill();
+    noFill();
     stroke("#02f2fa");
     rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
 
